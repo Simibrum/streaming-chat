@@ -14,7 +14,7 @@ def load_from_env_file() -> None:
     """Load environment variables from a file."""
     # Load environment variables from project root .env file
     # Set path of .env file
-    env_path = Path(__file__).parent.parent.joinpath(".env")
+    env_path = Path(__file__).parent.parent.parent.joinpath(".env")
     with contextlib.suppress(FileNotFoundError):
         # Load environment variables from .env file
         load_env_vars(env_path)

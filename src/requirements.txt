@@ -1,0 +1,8 @@
+# Requirements for the app
+
+fastapi==0.110.3
+uvicorn[standard]==0.29.0
+gunicorn==22.0.0
+openai==1.25.1
+tiktoken==0.6.0
+environs==11.0.0

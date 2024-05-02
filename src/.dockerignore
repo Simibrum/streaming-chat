@@ -1,0 +1,4 @@
+# Docker Ignore File
+.git*
+.venv/
+**/*.pyc

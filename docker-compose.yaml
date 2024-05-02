@@ -1,0 +1,12 @@
+# Services for a simple streaming app
+
+services:
+  app:
+    build:
+      context: ./src
+    env_file:
+      - .env
+    ports:
+      - 3100:3100
+    volumes:
+      - ./src:/code
