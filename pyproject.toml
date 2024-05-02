@@ -28,8 +28,8 @@ build-backend = "poetry.core.masonry.api"
 # Ruff formatting settings
 [tool.ruff]
 lint.ignore-init-module-imports = true
-select = ["ALL"]
-line-length = 79
+lint.select = ["ALL"]
+line-length = 120
 
 #select = [
 #    "E",  # pycodestyle

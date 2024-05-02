@@ -1,0 +1,3 @@
+# Bandit Configuration
+# exclude_dirs: ['tests']
+exclude_dirs: []
